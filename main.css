@@ -1,4 +1,3 @@
-
 /*
 * {
     border: 1px solid green;
@@ -12,11 +11,7 @@ color: var(--variable);
 }
 
 .logo {
-    /*width:500px;*/
-    font-size:137px;
     display:block;
-    margin-left:30px;
-    margin-right:30px;
     margin-top:30px;
     font-family: 'Flamenco', cursive;
 }
@@ -31,17 +26,14 @@ color: var(--variable);
 }
 
 nav {
-    display:block;
+    display: flex;
+    justify-content: space-between;
     margin:auto;
     margin-bottom:20px;
-    width:430px;
 }
 
 .link {
     display:inline;
-    padding-left:30px;
-    padding-right:30px;
-    font-size: 22px;
 }
 
 .link a {
@@ -60,17 +52,13 @@ nav {
     display:block;
     margin:auto;
     font-family: 'Roboto', sans-serif;
-    /* prevent image overflow */
     overflow: auto;
-    width: 700px;
 }
 
 .content-title {
-    font-size: 32px;
 }
 
 .content-body {
-    font-size: 14px;
     padding-left:15px;
 }
 
@@ -90,107 +78,254 @@ footer {
     font-family: 'Roboto', sans-serif;
 }
 
-
-/* TINY SCREENS */
-/*
-@media screen and (max-width:799px) {
+@media screen and (min-width:800px) {
     .logo {
-        text-align:right;
-        display:block;
-        margin-left: 30px;
-        margin-right: 30px;
-        margin-top: 30px;
+        font-size:137px;
     }
     nav {
-        display:block;
+        width:430px;
     }
     .link {
-        font-size: 32px;
-        display:block;
-        width:130px;
+        font-size:22px;
     }
     .content {
-        display:block;
-        float:right;
-        font-size: 16px;
-
+        width:700px;
     }
     .content-title {
-        font-size: 36px;
+        font-size:32px;
+    }
+    .content-body {
+        font-size:14px;
     }
 }
-
+/* multiply vars by .96 */
 @media screen and (max-width:799px) {
+    .logo {
+        font-size:137px;
+    }
+    nav {
+        width:412px;
+    }
+    .link {
+        font-size:21px;
+    }
+    .content {
+        width:672px;
+    }
+    .content-title {
+        font-size:30.7px;
+    }
+    .content-body {
+        font-size:14px;
+    }
+}
+/* multiply vars by .90 */
+@media screen and (max-width:749px) {
     .logo {
         font-size:123px;
     }
-}
-@media screen and (max-width:749px) {
-    .logo {
-        font-size:113px;
-    }
-}
-@media screen and (max-width:699px) {
-    .logop{
-        font-size:105px;
-    }
-}
-@media screen and (max-width:649px) {
-    .logo {
-        font-size:95px;
-    }
-}
-@media screen and (max-width:599px) {
-    .logo {
-        font-size:86px;
-    }
-}
-@media screen and (max-width:549px) {
-    .logo {
-        font-size:78px;
-    }
-}
-@media screen and (max-width:499px) {
-    .logo {
-        font-size:68px;
-    }
-}
-@media screen and (max-width:449px) {
-    .logo {
-        font-size:58px;
-    }
-}
-@media screen and (max-width:399px) {
-    .logo {
-        font-size:48px;
-    }
-}
-@media screen and (max-width:349px) {
-    .logo {
-        font-size:44px;
-    }
-}
-@media screen and (max-width:299px) {
-    .logo {
-        font-size:35px;
-    }
-}
-
-@media screen and (min-width:800px) {
-    .container {
-    }
-    .logo {
-    }
     nav {
+        width:387px;
     }
     .link {
+        font-size:19.8px;
     }
     .content {
+        width:630px;
     }
     .content-title {
+        font-size:28.8px;
+    }
+    .content-body {
+        font-size:14px;
     }
 }
-*/
-
-
-
+/* multiply vars by .84 */
+@media screen and (max-width:699px) {
+    .logo {
+        font-size:115px;
+    }
+    nav {
+        width:361px;
+    }
+    .link {
+        font-size:18.5px;
+    }
+    .content {
+        width:588px;
+    }
+    .content-title {
+        font-size:26.9px;
+    }
+    .content-body {
+        font-size:14px;
+    }
+}
+/* multiply vars by .78 */
+@media screen and (max-width:649px) {
+    .logo {
+        font-size:106.9px;
+    }
+    nav {
+        width:335px;
+    }
+    .link {
+        font-size:17.2px;
+    }
+    .content {
+        width:746px;
+    }
+    .content-title {
+        font-size:25px;
+    }
+    .content-body {
+        font-size:14px;
+    }
+}
+/* multiply vars by .72 */
+@media screen and (max-width:599px) {
+    .logo {
+        font-size:98px;
+    }
+    nav {
+        width:309px;
+    }
+    .link {
+        font-size:15.8px;
+    }
+    .content {
+        width:504px;
+    }
+    .content-title {
+        font-size:23px;
+    }
+    .content-body {
+        font-size:14px;
+    }
+}
+/* multiply vars by .66 */
+@media screen and (max-width:549px) {
+    .logo {
+        font-size:90px;
+    }
+    nav {
+        width:283px;
+    }
+    .link {
+        font-size:14.5px;
+    }
+    .content {
+        width:462px;
+    }
+    .content-title {
+        font-size:21.1px;
+    }
+    .content-body {
+        font-size:14px;
+    }
+}
+/* multiply vars by .59 */
+@media screen and (max-width:499px) {
+    .logo {
+        font-size:81px;
+    }
+    nav {
+        width:253px;
+    }
+    .link {
+        font-size:14px;
+    }
+    .content {
+        width:413px;
+    }
+    .content-title {
+        font-size:18.9px;
+    }
+    .content-body {
+        font-size:14px;
+    }
+}
+/* multiply vars by .53 */
+@media screen and (max-width:449px) {
+    .logo {
+        font-size:72px;
+    }
+    nav {
+        width:228px;
+    }
+    .link {
+        font-size:14px;
+    }
+    .content {
+        width:371px;
+    }
+    .content-title {
+        font-size:17px;
+    }
+    .content-body {
+        font-size:14px;
+    }
+}
+/* multiply vars by .47 */
+@media screen and (max-width:399px) {
+    .logo {
+        font-size:64px;
+    }
+    nav {
+        width:202px;
+    }
+    .link {
+        font-size:14px;
+    }
+    .content {
+        width:329px;
+    }
+    .content-title {
+        font-size:17px;
+    }
+    .content-body {
+        font-size:14px;
+    }
+}
+/* multiply vars by .40 */
+@media screen and (max-width:349px) {
+    .logo {
+        font-size:54px;
+    }
+    nav {
+        width:172px;
+    }
+    .link {
+        font-size:14px;
+    }
+    .content {
+        width:280px;
+    }
+    .content-title {
+        font-size:17px;
+    }
+    .content-body {
+        font-size:14px;
+    }
+}
+/* multiply vars by .34 */
+@media screen and (max-width:299px) {
+    .logo {
+        font-size:46px;
+    }
+    nav {
+        width:146px;
+    }
+    .link {
+        font-size:14px;
+    }
+    .content {
+        width:238px;
+    }
+    .content-title {
+        font-size:17px;
+    }
+    .content-body {
+        font-size:14px;
+    }
+}
