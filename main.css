@@ -1,0 +1,196 @@
+
+/*
+* {
+    border: 1px solid green;
+}
+--variable: black;
+color: var(--variable);
+*/
+
+.container {
+    margin: auto;
+}
+
+.logo {
+    /*width:500px;*/
+    font-size:137px;
+    display:block;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top:30px;
+    font-family: 'Flamenco', cursive;
+}
+
+.logo a {
+    display:block;
+    margin:auto;
+    text-align:center;
+    color: #0A68A5;
+    text-decoration: none;
+    outline: 0;
+}
+
+nav {
+    display:block;
+    margin:auto;
+    margin-bottom:20px;
+    width:430px;
+}
+
+.link {
+    display:inline;
+    padding-left:30px;
+    padding-right:30px;
+    font-size: 22px;
+}
+
+.link a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Flamenco', cursive;
+    outline: 0;
+}
+
+.currentpage a {
+    color: #0A68A5;
+    outline: 0;
+}
+
+.content {
+    display:block;
+    margin:auto;
+    font-family: 'Roboto', sans-serif;
+    /* prevent image overflow */
+    overflow: auto;
+    width: 700px;
+}
+
+.content-title {
+    font-size: 32px;
+}
+
+.content-body {
+    font-size: 14px;
+    padding-left:15px;
+}
+
+.content-body a {
+    color: #0A68A5;
+    outline: 0;
+}
+
+.content-body img {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* TINY SCREENS */
+/*
+@media screen and (max-width:799px) {
+    .logo {
+        text-align:right;
+        display:block;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+    nav {
+        display:block;
+    }
+    .link {
+        font-size: 32px;
+        display:block;
+        width:130px;
+    }
+    .content {
+        display:block;
+        float:right;
+        font-size: 16px;
+
+    }
+    .content-title {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width:799px) {
+    .logo {
+        font-size:123px;
+    }
+}
+@media screen and (max-width:749px) {
+    .logo {
+        font-size:113px;
+    }
+}
+@media screen and (max-width:699px) {
+    .logop{
+        font-size:105px;
+    }
+}
+@media screen and (max-width:649px) {
+    .logo {
+        font-size:95px;
+    }
+}
+@media screen and (max-width:599px) {
+    .logo {
+        font-size:86px;
+    }
+}
+@media screen and (max-width:549px) {
+    .logo {
+        font-size:78px;
+    }
+}
+@media screen and (max-width:499px) {
+    .logo {
+        font-size:68px;
+    }
+}
+@media screen and (max-width:449px) {
+    .logo {
+        font-size:58px;
+    }
+}
+@media screen and (max-width:399px) {
+    .logo {
+        font-size:48px;
+    }
+}
+@media screen and (max-width:349px) {
+    .logo {
+        font-size:44px;
+    }
+}
+@media screen and (max-width:299px) {
+    .logo {
+        font-size:35px;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .container {
+    }
+    .logo {
+    }
+    nav {
+    }
+    .link {
+    }
+    .content {
+    }
+    .content-title {
+    }
+}
+*/
+
+
+
