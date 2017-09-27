@@ -1,9 +1,9 @@
+
+
 /*
 * {
     border: 1px solid green;
 }
---variable: black;
-color: var(--variable);
 */
 
 .container {
@@ -12,13 +12,14 @@ color: var(--variable);
 
 .logo {
     display:block;
-    margin-top:30px;
+    margin-top:20px;
     font-family: 'Flamenco', cursive;
 }
 
 .logo a {
     display:block;
-    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
     text-align:center;
     color: #0A68A5;
     text-decoration: none;
@@ -78,12 +79,14 @@ footer {
     font-family: 'Roboto', sans-serif;
 }
 
+/* mults=[1., .96, .90, .84, .78, .72, .66, .59, .53, .47, .40, .34] */
+
 @media screen and (min-width:800px) {
     .logo {
         font-size:137px;
     }
     nav {
-        width:350px;
+        width:450px;
     }
     .link {
         font-size:30px;
@@ -92,7 +95,7 @@ footer {
         width:700px;
     }
     .content-title {
-        font-size:32px;
+        font-size:25px;
     }
     .content-body {
         font-size:14px;
@@ -104,7 +107,7 @@ footer {
         font-size:137px;
     }
     nav {
-        width:336px;
+        width:432px;
     }
     .link {
         font-size:28.8px;
@@ -113,7 +116,7 @@ footer {
         width:672px;
     }
     .content-title {
-        font-size:30.7px;
+        font-size:24px;
     }
     .content-body {
         font-size:14px;
@@ -125,7 +128,7 @@ footer {
         font-size:123px;
     }
     nav {
-        width:315px;
+        width:405px;
     }
     .link {
         font-size:27px;
@@ -134,7 +137,7 @@ footer {
         width:630px;
     }
     .content-title {
-        font-size:28.8px;
+        font-size:22.5px;
     }
     .content-body {
         font-size:14px;
@@ -146,7 +149,7 @@ footer {
         font-size:115px;
     }
     nav {
-        width:294px;
+        width:378px;
     }
     .link {
         font-size:25.2px;
@@ -155,7 +158,7 @@ footer {
         width:588px;
     }
     .content-title {
-        font-size:26.9px;
+        font-size:22.5px;
     }
     .content-body {
         font-size:14px;
@@ -167,7 +170,7 @@ footer {
         font-size:106.9px;
     }
     nav {
-        width:273px;
+        width:351px;
     }
     .link {
         font-size:23.4px;
@@ -176,7 +179,7 @@ footer {
         width:746px;
     }
     .content-title {
-        font-size:25px;
+        font-size:22.5px;
     }
     .content-body {
         font-size:14px;
@@ -188,7 +191,7 @@ footer {
         font-size:98px;
     }
     nav {
-        width:252px;
+        width:324px;
     }
     .link {
         font-size:21.6px;
@@ -197,7 +200,7 @@ footer {
         width:504px;
     }
     .content-title {
-        font-size:23px;
+        font-size:22.5px;
     }
     .content-body {
         font-size:14px;
@@ -209,7 +212,7 @@ footer {
         font-size:90px;
     }
     nav {
-        width:231px;
+        width:297px;
     }
     .link {
         font-size:19.18px;
@@ -218,7 +221,7 @@ footer {
         width:462px;
     }
     .content-title {
-        font-size:21.1px;
+        font-size:22.5px;
     }
     .content-body {
         font-size:14px;
@@ -230,7 +233,7 @@ footer {
         font-size:81px;
     }
     nav {
-        width:206px;
+        width:265px;
     }
     .link {
         font-size:17.7px;
@@ -239,7 +242,7 @@ footer {
         width:413px;
     }
     .content-title {
-        font-size:18.9px;
+        font-size:22.5px;
     }
     .content-body {
         font-size:14px;
@@ -251,16 +254,16 @@ footer {
         font-size:72px;
     }
     nav {
-        width:185px;
+        width:238px;
     }
     .link {
-        font-size:15.9px;
+        font-size:15px;
     }
     .content {
         width:371px;
     }
     .content-title {
-        font-size:17px;
+        font-size:22.5px;
     }
     .content-body {
         font-size:14px;
@@ -272,7 +275,7 @@ footer {
         font-size:64px;
     }
     nav {
-        width:164px;
+        width:211px;
     }
     .link {
         font-size:15px;
@@ -281,7 +284,7 @@ footer {
         width:329px;
     }
     .content-title {
-        font-size:17px;
+        font-size:22.5px;
     }
     .content-body {
         font-size:14px;
@@ -293,7 +296,7 @@ footer {
         font-size:54px;
     }
     nav {
-        width:164px;
+        width:211px;
     }
     .link {
         font-size:15px;
@@ -302,7 +305,7 @@ footer {
         width:280px;
     }
     .content-title {
-        font-size:17px;
+        font-size:22.5px;
     }
     .content-body {
         font-size:14px;
@@ -314,7 +317,7 @@ footer {
         font-size:46px;
     }
     nav {
-        width:164px;
+        width:211px;
     }
     .link {
         font-size:15px;
@@ -323,7 +326,7 @@ footer {
         width:238px;
     }
     .content-title {
-        font-size:17px;
+        font-size:22.5px;
     }
     .content-body {
         font-size:14px;
