@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>jlamoure.net</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <id>http://localhost:4000</id>
- <updated>2017-10-02T12:49:48-07:00</updated>
+ <link href="http://www.jlamoure.net//atom.xml" rel="self"/>
+ <id>http://www.jlamoure.net/</id>
+ <updated>2017-10-02T13:09:11-07:00</updated>
  <author>
-   <name>The Review Index</name>
+   <name>Jacob Lamoure</name>
    <uri>http://jlamoure.net</uri>
    <email>mail@jlamoure.net</email>
  </author>
@@ -15,8 +15,8 @@
 
  <entry>
    <title>First project post</title>
-   <link href="http://localhost:4000/projects/hello-world"/>
-   <id>http://localhost:4000/projects/hello-world</id>
+   <link href="http://www.jlamoure.net//projects/hello-world"/>
+   <id>http://www.jlamoure.net//projects/hello-world</id>
    <updated>2017-10-02T00:00:00-07:00</updated>
    <content type="html">&lt;p&gt;This was in and of itself a project.&lt;/p&gt;
 </content>
