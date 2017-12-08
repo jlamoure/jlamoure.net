@@ -4,9 +4,9 @@
  <title>jlamoure.net</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2017-10-02T15:55:42-07:00</updated>
+ <updated>2017-12-07T16:29:41-08:00</updated>
  <author>
-   <name>Jacob Lamoure</name>
+   <name>The Review Index</name>
    <uri>http://jlamoure.net</uri>
    <email>mail@jlamoure.net</email>
  </author>
@@ -14,12 +14,31 @@
  
 
  <entry>
+   <title>Sweet Steven Universe Ringtone with the Sonic Pi software</title>
+   <link href="http://localhost:4000/blog/steven-universe-ringtone"/>
+   <id>http://localhost:4000/blog/steven-universe-ringtone</id>
+   <updated>2017-12-07T00:00:00-08:00</updated>
+   <content type="html">&lt;p&gt;This is a very simple construction using the Sonic Pi syntax to mimic Steven’s own ringtone for Season 2, Episode 1, song/episode title “&lt;a href=&quot;https://www.youtube.com/watch?v=4rkez0Bi8fs&quot;&gt;Full Disclosure&lt;/a&gt;.” I wanted it as my ringtone, so I had to make it up myself.&lt;/p&gt; &lt;p&gt;Here’s the &lt;a href=&quot;https://github.com/jlamoure/sonic-pi-music/blob/master/steven/steven.mp3&quot;&gt;ringtone&lt;/a&gt; itself in .mp3!&lt;/p&gt; &lt;p&gt;Here’s the &lt;a...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>The Pi Penthouse: DIY accommodations for Raspberry Pi and Peripherals</title>
+   <link href="http://localhost:4000/blog/pi-penthouse"/>
+   <id>http://localhost:4000/blog/pi-penthouse</id>
+   <updated>2017-12-07T00:00:00-08:00</updated>
+   <content type="html">&lt;p&gt;My main issue with most Raspberry Pi cases is that they only contain the Pi itself. I want a fat hard drive, which in turn requires an external power supply. Most Raspi setups are necessarily a rat’s nest. So, here’s what you need to do to end up with a...</content>
+ </entry>
+
+ 
+
+ <entry>
    <title>First project post</title>
-   <link href="http://localhost:4000/projects/hello-world"/>
-   <id>http://localhost:4000/projects/hello-world</id>
+   <link href="http://localhost:4000/blog/hello-world"/>
+   <id>http://localhost:4000/blog/hello-world</id>
    <updated>2017-10-02T00:00:00-07:00</updated>
-   <content type="html">&lt;p&gt;This was in and of itself a project.&lt;/p&gt;
-</content>
+   <content type="html">&lt;p&gt;This site has been my first project. It was templated by hand, rendered locally with &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, then statically hosted on &lt;a href=&quot;https://github.com/jlamoure/jlamoure.net&quot;&gt;Github&lt;/a&gt;, linked to the jlamoure.net domain. This is a static site complete with blog and &lt;a href=&quot;/atom.xml&quot;&gt;atom feed&lt;/a&gt;. Yeah, the CSS was a pain to get nice for...</content>
  </entry>
 
  
