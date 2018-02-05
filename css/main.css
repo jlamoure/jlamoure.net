@@ -56,21 +56,15 @@ nav {
     overflow: auto;
 }
 
-.content-title {
-}
-
-.content-body {
-    padding-left:15px;
-}
-
-.content-body a {
+.content a {
     color: #0A68A5;
     outline: 0;
 }
 
-.content-body img {
-    float: right;
-    margin: 0 0 1em 1em;
+.content img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 footer {
